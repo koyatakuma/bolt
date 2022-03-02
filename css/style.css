@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.header {
+  padding: 15px;
+  background-color: #f2f2f2;
+}
+
+.header-innner {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.fa-bolt {
+  font-size: 42px;
+  vertical-align: middle;
+}
+
+.header-button {
+  background-color: #74cfae;
+  border: none;
+  font-size: 12px;
+  padding: 14px 12px;
+  color: #fff;
+}
+
+.theme {
+  padding: 250px 0;
+  background-color: #f2f2f2;
+}
+
+.theme-title {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+  display: flex;
+  justify-content: center;
+}
+
+.theme-text {
+  font-size: 30px;
+  color: #c0c0c0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
