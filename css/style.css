@@ -87,6 +87,7 @@
 
 .icon-iphon {
   color: #fff;
+  vertical-align: bottom;
 }
 
 .article {
@@ -105,19 +106,24 @@
   flex-wrap: wrap;
 }
 
+.article-list-box {
+  font-size: 0;
+}
+
 .article-item {
   display: inline-block;
   opacity: 0.7;
   transition: .3s;
+  margin-right: 100px;
   margin-bottom: 80px;
 }
 
-.article-item:nth-child(1) {
-  margin-right: 100px;
+.article-item:nth-child(3) {
+  margin-right: 0;
 }
 
-.article-item:nth-child(2) {
-  margin-right: 100px;
+.article-item:nth-child(6) {
+  margin-right: 0;
 }
 
 .article-item:hover {
