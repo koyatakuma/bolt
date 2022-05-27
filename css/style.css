@@ -111,11 +111,6 @@ main {
 
 .article-item-box {
   margin-top: 40px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.article-list-box {
   font-size: 0;
 }
 
@@ -288,11 +283,10 @@ main {
     margin-top: 20px;
   }
 
-  .article-list-box {
+  .article-item-box {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
   }
 
   .article-item {
@@ -415,11 +409,10 @@ main {
     margin-right: auto;
   }
 
-  .article-list-box {
+  .article-item-box {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
   }
 
   .article-item {
