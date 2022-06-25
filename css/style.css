@@ -6,7 +6,8 @@
 }
 
 .header {
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #fff;
   position: fixed;
   top: 0%;
@@ -181,11 +182,11 @@ main {
 .section-skills-item-box {
   display: flex;
   justify-content: center;
+  margin-top: 100px;
 }
 
 .section-skills-circle {
   display: inline-block;
-  margin-top: 100px;
   margin-left: 180px;
 }
 
