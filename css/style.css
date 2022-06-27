@@ -141,14 +141,14 @@ main {
 
 .article-text-button {
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-top: 90px;
 }
 
 .article-text {
-  width: 39%;
+  width: 45%;
   text-align: center;
-  margin-right: 90px;
 }
 
 .article-button {
@@ -158,9 +158,9 @@ main {
   padding: 14px 20px;
   color: #fff;
   display: flex;
-  align-items: center;
   transition: .3s;
   text-decoration: none;
+  margin-left: 90px;
 }
 
 .article-button:hover {
@@ -263,10 +263,6 @@ main {
     display: none;
   }
 
-  .header-button {
-    margin-right: 47.6px;
-  }
-
   .section-inner {
     display: block;
     padding-bottom: 25px;
@@ -305,7 +301,6 @@ main {
 
   .article-text {
     width: 100%;
-    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -313,6 +308,7 @@ main {
   .article-button {
     width: 54px;
     display: block;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -345,7 +341,6 @@ main {
   }
 
   .burger-sp {
-    right: 46.7px;
     position: relative;
     height: 40px;
     width: 50px;
@@ -431,7 +426,6 @@ main {
 
   .article-text {
     width: 100%;
-    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -439,6 +433,7 @@ main {
   .article-button {
     width: 54px;
     display: block;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
   }
