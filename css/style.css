@@ -157,7 +157,6 @@ main {
   font-size: 12px;
   padding: 14px 20px;
   color: #fff;
-  display: flex;
   transition: .3s;
   text-decoration: none;
   margin-left: 90px;
@@ -301,8 +300,6 @@ main {
 
   .article-text {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .article-button {
@@ -426,8 +423,6 @@ main {
 
   .article-text {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .article-button {
