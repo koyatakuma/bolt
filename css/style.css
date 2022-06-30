@@ -244,6 +244,10 @@ main {
   justify-content: flex-end;
 }
 
+.footer-text {
+  font-family: 'Lato', sans-serif;
+}
+
 @media screen and (min-width:1200px) {
 
   .burger-sp {
