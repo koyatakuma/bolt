@@ -6,8 +6,7 @@
 }
 
 .header {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0;
   background-color: #fff;
   position: fixed;
   top: 0%;
@@ -127,7 +126,7 @@ main {
   margin-left: 100px;
 }
 
-.article-item a {
+.article-Photo {
   display: block;
 }
 
@@ -225,7 +224,7 @@ main {
   transition: .3s;
 }
 
-.nav-item a {
+.nav-sms {
   display: block;
   color: inherit;
   padding: 30px 0;
@@ -270,9 +269,9 @@ main {
 
   .section-content {
     width: 100%;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
   }
 
   .article-item-box {
@@ -330,7 +329,6 @@ main {
 @media screen and (max-width:767px) {
 
   .burger-sp {
-    position: relative;
     height: 40px;
     width: 50px;
     display: inline-block;
@@ -341,22 +339,10 @@ main {
   }
 
   .burger-rod {
-    position: absolute;
-    left: 10px;
     height: 2px;
     width: 30px;
     background-color: #ddd;
     display: inline-block;
-  }
-
-  .burger-sp span:nth-of-type(1) {
-    margin-top: 0;
-  }
-  .burger-sp span:nth-of-type(2) {
-    margin-top: 9px;
-  }
-  .burger-sp span:nth-of-type(3) {
-    margin-top: 18px;
   }
 
   .theme {
