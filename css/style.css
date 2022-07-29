@@ -325,12 +325,12 @@ main {
     margin-left: 0;
   }
 
-  .section-skills-circle:nth-child(1) {
-    margin-top: 70px;
+  .section-skills-circle {
+    margin-bottom: 88px;
   }
 
-  .section-skills-text {
-    margin-bottom: 88px;
+  .section-skills-circle:last-child {
+    margin-bottom: 0;
   }
 
 }
@@ -448,12 +448,12 @@ main {
     margin-left: 0;
   }
 
-  .section-skills-circle:nth-child(1) {
-    margin-top: 70px;
+  .section-skills-circle {
+    margin-bottom: 88px;
   }
 
-  .section-skills-text {
-    margin-bottom: 88px;
+  .section-skills-circle:last-child {
+    margin-bottom: 0;
   }
 
   .nav {
