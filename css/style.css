@@ -256,7 +256,7 @@ main {
 
 }
 
-@media screen and (min-width:768px) and (max-width:1199px) {
+@media screen and (max-width:1199px) {
 
   .inner {
     max-width: 97%;
@@ -337,10 +337,6 @@ main {
 
 @media screen and (max-width:767px) {
 
-  .inner {
-    max-width: 97%;
-  }
-
   .burger-sp {
     position: relative;
     height: 40px;
@@ -388,72 +384,6 @@ main {
 
   .header-button {
     display: none;
-  }
-
-  .section-inner {
-    display: block;
-    padding-bottom: 25px;
-  }
-
-  .section-icon {
-    text-align: center;
-  }
-
-  .section-content {
-    width: 100%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .article-item-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .article-item {
-    margin-left: 0%;
-  }
-
-  .article-item:not(:nth-child(3n+1)) {
-    margin-top: 0;
-  }
-
-  .article-text-button {
-    display: block;
-    margin-top: 80px;
-  }
-
-  .article-text {
-    width: 100%;
-  }
-
-  .article-button {
-    width: 54px;
-    display: block;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .section-skills-item-box {
-    display: block;
-  }
-
-  .section-skills-circle {
-    display: block;
-    text-align: center;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  .section-skills-circle {
-    margin-bottom: 88px;
-  }
-
-  .section-skills-circle:last-child {
-    margin-bottom: 0;
   }
 
   .nav {
