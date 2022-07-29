@@ -342,7 +342,15 @@ main {
     height: 2px;
     width: 30px;
     background-color: #ddd;
-    display: inline-block;
+    display: block;
+  }
+
+  .burger-rod {
+    margin-top: 7px;
+  }
+
+  .burger-rod:nth-child(1){
+    margin-top: 0;
   }
 
   .theme {
