@@ -104,8 +104,7 @@ main {
 }
 
 .article-inner {
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding: 60px 0 70px;
 }
 
 .article-title {
@@ -122,8 +121,7 @@ main {
   display: inline-block;
   opacity: 0.7;
   transition: .3s;
-  margin-top: 80px;
-  margin-left: 100px;
+  margin: 80px 0 0 100px;
 }
 
 .article-Photo {
@@ -171,8 +169,7 @@ main {
 
 .section-skills {
   background-color: #4e4e4e;
-  padding-top: 70px;
-  padding-bottom: 100px;
+  padding: 70px 0 100px;
 }
 
 .section-skills-title {
@@ -239,8 +236,7 @@ main {
 }
 
 .footer-inner {
-  padding-top: 20px;
-  padding-bottom: 25px;
+  padding: 20px 0 25px;
   color: #fff;
   text-align: center;
   display: flex;
@@ -269,9 +265,7 @@ main {
 
   .section-content {
     width: 100%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 0;
   }
 
   .article-item-box {
@@ -300,9 +294,7 @@ main {
   .article-button {
     width: 54px;
     display: block;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto 0;
   }
 
   .section-skills-item-box {
@@ -340,22 +332,20 @@ main {
 
   .burger-rod {
     height: 2px;
-    width: 30px;
     background-color: #ddd;
     display: block;
   }
 
   .burger-rod {
-    margin-top: 7px;
+    margin-top: 6px;
   }
 
-  .burger-rod:nth-child(1){
+  .burger-rod:first-child {
     margin-top: 0;
   }
 
   .theme {
-    padding-top: 160px;
-    padding-bottom: 130px;
+    padding: 160px 0 130px;
   }
 
   .theme-title {
